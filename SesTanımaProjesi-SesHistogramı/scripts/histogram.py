@@ -2,7 +2,7 @@ import librosa  # Ses işleme kütüphanesi
 import numpy as np  # Sayısal işlemler kütüphanesi
 import matplotlib.pyplot as plt  # Grafiklerin çizimi için
 import librosa.display  # Librosa'ya özel görselleştirme fonksiyonları için
-from pydub import AudioSegment
+from pydub import AudioSegment #librosa.load fonksiyonu doğrudan bir AudioSegment nesnesini işleyemez
 import io  # Bellekte veri akışı için
 
 # Kullanıcıdan bir ses dosyasının yolunu isteme
